@@ -1,0 +1,80 @@
+body{
+    background-image: url("stars💫.jpeg");
+    max-height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: monospace;
+    color: rgb(rgb(63, 64, 77));
+
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+@font-face {
+    font-family: ChopinScript;
+    src: url(ChopinScript.otf);
+}
+
+header{
+    font-family: ChopinScript;
+    letter-spacing: 4px;
+    color: rgb(142, 101, 148);
+    background-color: white;
+    text-align: center;
+}
+article{
+    background-color: rgb(226, 204, 233);
+    border: solid rgb(201, 135, 255);
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.zoom{
+    height: 280px;
+    transition: transform .2s;
+}
+.zoom:hover{
+    transform: scale(105%);
+}
+
+#ar1{
+    height: 270px;
+    width: auto;
+}
+#ar2{
+    height: 200px;
+    width: auto;
+}
+#ar3{
+    height: 200px;
+    width: auto;
+}
+
+img{
+    position: relative;
+}
+
+#pigeon1{
+    height: 270px;
+    float: right;
+}
+#pigeon2{
+    height: 200px;
+    float: left;
+}
+#pigeon3{
+    height: 200px;
+    float: right;
+}
+
+footer{
+    color: rgb(199, 191, 208);
+}
